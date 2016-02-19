@@ -1,0 +1,19 @@
+{
+  "name": "nodejs2",
+  "version": "1.0.0",
+  "description": "asdfsad",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^1.5.2",
+    "jade": "^1.11.0",
+    "lodash": "^4.5.0",
+    "request": "^2.69.0"
+  }
+}
