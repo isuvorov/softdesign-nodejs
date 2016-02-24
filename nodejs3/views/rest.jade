@@ -1,0 +1,15 @@
+h1 rests
+table
+  tr
+    th Id
+    th Title
+    th Parents
+  for item in items
+    tr
+      td= item._id
+      td= item.title
+      //- td= item.parentIds
+      td
+        for parent in item.parents
+          span= parent
+          | &nbsp

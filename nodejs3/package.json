@@ -1,0 +1,26 @@
+{
+  "name": "softdesign",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isuvorov/softdesign-nodejs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/isuvorov/softdesign-nodejs/issues"
+  },
+  "homepage": "https://github.com/isuvorov/softdesign-nodejs#readme",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "lodash": "^4.5.0",
+    "mongodb": "^2.1.7",
+    "mongoskin": "^2.0.3",
+    "wants-json": "^1.0.3"
+  }
+}
